@@ -6,4 +6,4 @@
 - Material Designs ideas.
 - More tools
 
-### Getting Started Now.
+### In Dev-mode.

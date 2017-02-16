@@ -23,9 +23,15 @@
         <li><a href="#!">Logout</a></li>
     </ul>
 
-    <div class="parallax-container">
+
+    <div class="parallax-container z-depth-4">
         <nav class="main-nav">
             <div class="nav-wrapper container">
+                <div class="hide-on-med-and-up">
+                    <a href="#" class="button-collapse nav-fa-bar" data-activates="slide-out">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
                 <a href="#!" class="brand-logo">AniGemini</a>
                 <ul class="right hide-on-med-and-down">
                     <li class="active"><a href="#">Home</a></li>
@@ -35,7 +41,37 @@
                     <!-- Dropdown Trigger -->
                     <li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="fa fa-user"></i> Profile&nbsp;<i class="fa fa-chevron-down"></i></a></li>
                 </ul>
+                <ul id="slide-out" class="side-nav">
+                    <li>
+                        <div class="userView">
+                            <div class="background">
+                                <img src="images/2.jpg">
+                            </div>
+                            <a href="#!user"><img class="circle" src="images/2.jpg"></a>
+                            <a href="#!name"><span class="white-text name">Animesh Singh</span></a>
+                            <a href="#!email"><span class="white-text email">xyz@gmail.com</span></a>
+                        </div>
+                    </li>
+                    <li><a href="pages/about.html">About</a></li>
+                    <li><a href="pages/team.html">Team</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
+                    <li>
+                        <div class="divider"></div>
+                    </li>
+                    <li><a class="subheader">Your profile</a></li>
+                    <li><a href="#"><i class="fa fa-cog"></i> Settings</a></li>
+                    <li><a href="#"><i class="fa fa-user"></i> Edit Profile</a></li>
+                    <li><a href="#">Logout</a></li>
+                    <li>
+                        <div class="divider"></div>
+                    </li>
+                    <li><a class="btn red darken-3 waves-effect" href="#!">Get Premium</a></li>
+                </ul>
+                <!--<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>-->
             </div>
+
+
+
         </nav>
 
         <div class="parallax">
@@ -44,7 +80,254 @@
         <div class="container">
 
             <h3 class="center white-text">Welcome to AniGemini</h3>
+            <p class="center">
+                Ea duis ea fugiat eu est nisi irure deserunt. Nostrud consequat eu deserunt consectetur aliqua id. Aliquip velit voluptate cupidatat ullamco veniam consequat eu cupidatat. Incididunt voluptate ad aute Lorem velit veniam pariatur eu ea cillum est adipisicing
+                nostrud consectetur. Ullamco id mollit eiusmod fugiat est elit sint. Magna amet minim excepteur exercitation officia occaecat ullamco pariatur ullamco ipsum sint aute reprehenderit laborum. Ipsum voluptate culpa cillum sint anim aliqua
+                magna. <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum qui, rerum suscipit alias vero saepe at, id magnam officia. Laborum sit sequi minus cum eaque dolorum aut sunt labore deserunt.
+            </p>
+
         </div>
+    </div>
+    <!--Parralax container-->
+
+    <div class="main-body">
+
+        <div class="searching-for">
+            <div class="container">
+                <h4 class="center">You can find anything here:</h4>
+                <nav class="amber darken-3">
+                    <div class="nav-wrapper">
+                        <form>
+                            <div class="input-field">
+                                <input id="search" type="search" placeholder="I'm searching for ..." required>
+                                <label class="label-icon" for="search"><i class="fa fa-search"></i></label>
+                                <i class="fa fa-close"></i>
+                            </div>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
+        <div class="promo row center">
+            <div class="col s12 m4">
+                <i class="fa fa-users"></i>
+                <h3>Join your Team.</h3>
+                <p>Irure eu ea enim sint officia sint voluptate anim. Proident sint aliquip magna amet deserunt laborum aliquip aliqua anim ex eu cupidatat commodo officia. Ipsum ad qui eiusmod deserunt fugiat dolore.</p>
+            </div>
+            <div class="col s12 m4">
+                <i class="fa fa-credit-card-alt"></i>
+                <h3>Free Forever.</h3>
+                <p>Lorem ipsum dolor sit amet, <strong>Free</strong> adipisicing elit. Ad, nulla illo ipsam provident quibusdam excepturi inventore eius doloremque vero iure ea deleniti, blanditiis praesentium quos, accusamus. Labore sequi ducimus atque!.</p>
+            </div>
+            <div class="col s12 m4">
+                <i class="fa fa-camera"></i>
+                <h3>We are everywhere.</h3>
+                <p>Culpa cillum occaesectetur duis aute non in nisi laborum ullamco amet laboris. Cillum ipsum do laboris consequat elit fugiat Lorem elit nostrud id. Sint occaecat eiusmod ullamco velit nisi sint amet magna.</p>
+            </div>
+        </div>
+        <!--Promo-Row-->
+
+        <div class="learn row">
+            <div class="col s12 m4">
+                <div class="card medium sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/1.jpeg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Electrical<i class="fa fa-chevron-up right"></i></span>
+                        <p><a href="#">This is a link</a></p>
+                    </div>
+                    <div class="card-action">
+                        <div class="left"><a href="#" class="btn green waves-effect waves-dark">Basic <i class="fa fa-chevron-right"></i></a></div>
+                        <div class="right"><a href="#" class="btn amber darken-4 waves-effect waves-dark">Advance <i class="fa fa-chevron-right"></i></a></div>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Electrical<i class="fa fa-close right"></i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        <p>Ipsum do duis voluptate aute laboris minim. Est pariatur fugiat dolor tempor elit anim do minim incididunt mollit nulla sint eiusmod. Laboris aliqua irure enim excepteur pariatur anim occaecat quis exercitation cupidatat. Id est
+                            Lorem ut eiusmod mollit labore culpa commodo. Laboris proident anim culpa minim ipsum esse occaecat do sunt esse culpa minim consectetur. Consequat excepteur amet labore exercitation et labore.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card medium sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/2.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Mechanical<i class="fa fa-chevron-up right"></i></span>
+                        <p><a href="#">This is a link</a></p>
+                    </div>
+                    <div class="card-action">
+                        <div class="left"><a href="#" class="btn green waves-effect waves-dark">Basic <i class="fa fa-chevron-right"></i></a></div>
+                        <div class="right"><a href="#" class="btn amber darken-4 waves-effect waves-dark">Advance <i class="fa fa-chevron-right"></i></a></div>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Mechanical<i class="fa fa-close right"></i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        <p>Ipsum do duis voluptate aute laboris minim. Est pariatur fugiat dolor tempor elit anim do minim incididunt mollit nulla sint eiusmod. Laboris aliqua irure enim excepteur pariatur anim occaecat quis exercitation cupidatat. Id est
+                            Lorem ut eiusmod mollit labore culpa commodo. Laboris proident anim culpa minim ipsum esse occaecat do sunt esse culpa minim consectetur. Consequat excepteur amet labore exercitation et labore.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card medium sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/3.jpeg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Programming<i class="fa fa-chevron-up right"></i></span>
+                        <p><a href="#">This is a link</a></p>
+                    </div>
+                    <div class="card-action">
+                        <div class="left"><a href="#" class="btn green waves-effect waves-dark">Basic <i class="fa fa-chevron-right"></i></a></div>
+                        <div class="right"><a href="#" class="btn amber darken-4 waves-effect waves-dark">Advance <i class="fa fa-chevron-right"></i></a></div>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Programming<i class="fa fa-close right"></i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        <p>Ipsum do duis voluptate aute laboris minim. Est pariatur fugiat dolor tempor elit anim do minim incididunt mollit nulla sint eiusmod. Laboris aliqua irure enim excepteur pariatur anim occaecat quis exercitation cupidatat. Id est
+                            Lorem ut eiusmod mollit labore culpa commodo. Laboris proident anim culpa minim ipsum esse occaecat do sunt esse culpa minim consectetur. Consequat excepteur amet labore exercitation et labore.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Row-->
+        <div class="learn row">
+            <div class="col s12 m4">
+                <div class="card medium sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/1.jpeg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Electrical<i class="fa fa-chevron-up right"></i></span>
+                        <p><a href="#">This is a link</a></p>
+                    </div>
+                    <div class="card-action">
+                        <div class="left"><a href="#" class="btn green waves-effect waves-dark">Basic <i class="fa fa-chevron-right"></i></a></div>
+                        <div class="right"><a href="#" class="btn amber darken-4 waves-effect waves-dark">Advance <i class="fa fa-chevron-right"></i></a></div>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Electrical<i class="fa fa-close right"></i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        <p>Ipsum do duis voluptate aute laboris minim. Est pariatur fugiat dolor tempor elit anim do minim incididunt mollit nulla sint eiusmod. Laboris aliqua irure enim excepteur pariatur anim occaecat quis exercitation cupidatat. Id est
+                            Lorem ut eiusmod mollit labore culpa commodo. Laboris proident anim culpa minim ipsum esse occaecat do sunt esse culpa minim consectetur. Consequat excepteur amet labore exercitation et labore.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card medium sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/2.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Mechanical<i class="fa fa-chevron-up right"></i></span>
+                        <p><a href="#">This is a link</a></p>
+                    </div>
+                    <div class="card-action">
+                        <div class="left"><a href="#" class="btn green waves-effect waves-dark">Basic <i class="fa fa-chevron-right"></i></a></div>
+                        <div class="right"><a href="#" class="btn amber darken-4 waves-effect waves-dark">Advance <i class="fa fa-chevron-right"></i></a></div>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Mechanical<i class="fa fa-close right"></i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        <p>Ipsum do duis voluptate aute laboris minim. Est pariatur fugiat dolor tempor elit anim do minim incididunt mollit nulla sint eiusmod. Laboris aliqua irure enim excepteur pariatur anim occaecat quis exercitation cupidatat. Id est
+                            Lorem ut eiusmod mollit labore culpa commodo. Laboris proident anim culpa minim ipsum esse occaecat do sunt esse culpa minim consectetur. Consequat excepteur amet labore exercitation et labore.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card medium sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/3.jpeg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Programming<i class="fa fa-chevron-up right"></i></span>
+                        <p><a href="#">This is a link</a></p>
+                    </div>
+                    <div class="card-action">
+                        <div class="left"><a href="#" class="btn green waves-effect waves-dark">Basic <i class="fa fa-chevron-right"></i></a></div>
+                        <div class="right"><a href="#" class="btn amber darken-4 waves-effect waves-dark">Advance <i class="fa fa-chevron-right"></i></a></div>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Programming<i class="fa fa-close right"></i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        <p>Ipsum do duis voluptate aute laboris minim. Est pariatur fugiat dolor tempor elit anim do minim incididunt mollit nulla sint eiusmod. Laboris aliqua irure enim excepteur pariatur anim occaecat quis exercitation cupidatat. Id est
+                            Lorem ut eiusmod mollit labore culpa commodo. Laboris proident anim culpa minim ipsum esse occaecat do sunt esse culpa minim consectetur. Consequat excepteur amet labore exercitation et labore.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Row-->
+        <div class="learn row">
+            <div class="col s12 m4">
+                <div class="card medium sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/1.jpeg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Electrical<i class="fa fa-chevron-up right"></i></span>
+                        <p><a href="#">This is a link</a></p>
+                    </div>
+                    <div class="card-action">
+                        <div class="left"><a href="#" class="btn green waves-effect waves-dark">Basic <i class="fa fa-chevron-right"></i></a></div>
+                        <div class="right"><a href="#" class="btn amber darken-4 waves-effect waves-dark">Advance <i class="fa fa-chevron-right"></i></a></div>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Electrical<i class="fa fa-close right"></i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        <p>Ipsum do duis voluptate aute laboris minim. Est pariatur fugiat dolor tempor elit anim do minim incididunt mollit nulla sint eiusmod. Laboris aliqua irure enim excepteur pariatur anim occaecat quis exercitation cupidatat. Id est
+                            Lorem ut eiusmod mollit labore culpa commodo. Laboris proident anim culpa minim ipsum esse occaecat do sunt esse culpa minim consectetur. Consequat excepteur amet labore exercitation et labore.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card medium sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/2.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Mechanical<i class="fa fa-chevron-up right"></i></span>
+                        <p><a href="#">This is a link</a></p>
+                    </div>
+                    <div class="card-action">
+                        <div class="left"><a href="#" class="btn green waves-effect waves-dark">Basic <i class="fa fa-chevron-right"></i></a></div>
+                        <div class="right"><a href="#" class="btn amber darken-4 waves-effect waves-dark">Advance <i class="fa fa-chevron-right"></i></a></div>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Mechanical<i class="fa fa-close right"></i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        <p>Ipsum do duis voluptate aute laboris minim. Est pariatur fugiat dolor tempor elit anim do minim incididunt mollit nulla sint eiusmod. Laboris aliqua irure enim excepteur pariatur anim occaecat quis exercitation cupidatat. Id est
+                            Lorem ut eiusmod mollit labore culpa commodo. Laboris proident anim culpa minim ipsum esse occaecat do sunt esse culpa minim consectetur. Consequat excepteur amet labore exercitation et labore.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card medium sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/3.jpeg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Programming<i class="fa fa-chevron-up right"></i></span>
+                        <p><a href="#">This is a link</a></p>
+                    </div>
+                    <div class="card-action">
+                        <div class="left"><a href="#" class="btn green waves-effect waves-dark">Basic <i class="fa fa-chevron-right"></i></a></div>
+                        <div class="right"><a href="#" class="btn amber darken-4 waves-effect waves-dark">Advance <i class="fa fa-chevron-right"></i></a></div>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Programming<i class="fa fa-close right"></i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        <p>Ipsum do duis voluptate aute laboris minim. Est pariatur fugiat dolor tempor elit anim do minim incididunt mollit nulla sint eiusmod. Laboris aliqua irure enim excepteur pariatur anim occaecat quis exercitation cupidatat. Id est
+                            Lorem ut eiusmod mollit labore culpa commodo. Laboris proident anim culpa minim ipsum esse occaecat do sunt esse culpa minim consectetur. Consequat excepteur amet labore exercitation et labore.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Row-->
+
     </div>
 
 

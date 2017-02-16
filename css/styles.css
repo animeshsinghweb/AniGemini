@@ -5,14 +5,34 @@
     box-shadow: none;
 }
 
+.search-nav {
+    background: none;
+    box-shadow: none;
+}
+
 .main-nav a:hover,
 .main-nav a:focus {
     color: #ffb300;
     background: rgba(51, 51, 51, .61);
 }
 
+a.nav-fa-bar:focus,
+a.nav-fa-bar:hover {
+    background: none !important;
+}
+
+.main-nav .brand-logo:hover,
+.main-nav .brand-logo:active {
+    background: none;
+    color: #000;
+}
+
 .parallax-container {
     height: 50em;
+}
+
+.userView,
+.parallax-container {
     /*background: rgba(33, 33, 33, .33);*/
     background: rgba(254, 140, 0, .67);
     /* fallback for old browsers */
@@ -32,4 +52,49 @@
 
 .dropdown-content {
     width: 15% !important;
+}
+
+.searching-for {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+input#search::-webkit-input-placeholder,
+input#search::-moz-placeholder,
+input#search::-ms-placeholder {
+    color: #000 !important;
+}
+
+.promo.row {
+    padding: 4em;
+}
+
+.promo.row i {
+    font-size: 6em;
+    padding: .12em;
+    color: #000;
+    /*border: 4px solid #000;
+    border-radius: 50%;*/
+    cursor: pointer;
+}
+
+.promo.row i:hover {
+    /*border-color: #ff8f00;*/
+    color: #333;
+}
+
+.promo.row {
+    background: #eee;
+    background: -webkit-linear-gradient(to bottom, #fff, #e3e3e3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #fff, #e3e3e3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.learn.row .col {
+    padding: .53em !important;
+}
+
+.learn.row {
+    padding: 1.8em;
 }
