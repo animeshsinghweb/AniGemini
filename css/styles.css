@@ -1,0 +1,35 @@
+.main-nav {
+    padding-top: 3em;
+    height: 8em;
+    background: none;
+    box-shadow: none;
+}
+
+.main-nav a:hover,
+.main-nav a:focus {
+    color: #ffb300;
+    background: rgba(51, 51, 51, .61);
+}
+
+.parallax-container {
+    height: 50em;
+    /*background: rgba(33, 33, 33, .33);*/
+    background: rgba(254, 140, 0, .67);
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, rgba(254, 140, 0, .67), rgba(248, 54, 0, .87));
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, rgba(254, 140, 0, .67), rgba(248, 54, 0, .87));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.dropdown a {
+    color: #000 !important;
+}
+
+.dropdown a:hover .dropdown a:focus {
+    color: #ffb300;
+}
+
+.dropdown-content {
+    width: 15% !important;
+}
